@@ -1,5 +1,8 @@
-body {
-  font-family: Open Sans;
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans";
+  line-height: 1.5;
+  margin: 1.5rem;
 }
 
 h2 {
@@ -13,16 +16,22 @@ ul {
 
 li {
   display: inline-flex;
+  justify-content: space-between;
 }
 
 img {
 
 }
 
-a href {
-  color: #444;
-  width: 24rem;
-  padding: .5rem 1rem .6rem;
-  margin: 1.5rem;
+a {
+    padding: .5rem 1rem .6rem;
+    border: .3rem solid #444;
+    background-color: #444;
+    color: #fff;
+    text-decoration: none;
+    width: 5rem;
 }
- /* padding is for the box*/
+
+img {
+  width: 5rem;
+}
