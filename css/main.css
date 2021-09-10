@@ -1,0 +1,28 @@
+body {
+  font-family: Open Sans;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  display: inline-flex;
+}
+
+img {
+
+}
+
+a href {
+  color: #444;
+  width: 24rem;
+  padding: .5rem 1rem .6rem;
+  margin: 1.5rem;
+}
+ /* padding is for the box*/
