@@ -23,7 +23,7 @@ h2 {
 ul {
   display: inline-flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 0;
   line-height: 1.5;
   flex-wrap: wrap;
   margin: 0 2rem 2rem;
@@ -35,7 +35,18 @@ ul li {
   display: flex;
   align-items: center;
   flex-basis: 20%;
-  grid-gap: 2rem;
+  grid-gap: 1rem;
+  padding: 0;
+}
+
+hgroup {
+  flex-basis: 20%;
+  padding-bottom: 0;
+  margin-bottom: .5rem;
+}
+
+p {
+  flex-basis: 70%;
 }
 
 a {
